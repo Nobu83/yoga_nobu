@@ -99,10 +99,10 @@ html, body {
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
   }
-  .loading-one p.loading-txt {
+   .loading-txt {
     color: #707070;
-    font-size: 25px;
-    font-family: 'Noto Serif JP', serif !important; 
+    font-size: 30px;
+    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
     letter-spacing: 0.25em;
     line-height: 2.0;
     padding: 2em 0;
@@ -398,7 +398,8 @@ header {
 .fade-in-bottom {
     opacity: 0;
     animation-name: fadein-bottom;
-    animation-duration: 3.2s;
+    animation-delay: 1500ms;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
  }
