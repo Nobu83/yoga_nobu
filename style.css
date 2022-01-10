@@ -398,7 +398,7 @@ header {
 .fade-in-bottom {
     opacity: 0;
     animation-name: fadein-bottom;
-    animation-delay: 2700ms;
+    animation-delay: 2000ms;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
